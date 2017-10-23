@@ -1,0 +1,68 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:weightSum="4"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:id="@+id/textViewAppPosition"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/imageViewImageApp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2.1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="7dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="APP Name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:maxLines="5"
+                android:id="@+id/textViewAppName"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="APP Developer"
+                android:textSize="15sp"
+                android:id="@+id/textViewAppDeveloper"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_weight="0.6"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="9,99€"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:id="@+id/textViewAppPrice"/>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

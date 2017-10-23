@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Prueba Quadram</string>
+    <string name="conexionIncorrecta">Fallo en la descarga de datos</string>
+    <string name="textViewCategory">Category</string>
+    <string name="textViewVersion">Version</string>
+    <string name="textViewReleaseDate">Release Date</string>
+    <string name="textViewCurrentVersion">Current Version</string>
+    <string name="textViewDescription">Description</string>
+
+    <string-array name="string_array_title_tabs">
+        <item>Top Free</item>
+        <item>Top Paid</item>
+    </string-array>
+</resources>
